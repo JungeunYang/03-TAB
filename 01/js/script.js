@@ -7,8 +7,8 @@ $(function () {
 
   $tabMenu.on('click', function () {
     $tabMenu.removeClass('on');
-    let idx = $(this).index();
 
+    let idx = $(this).index();
     $tabMenu.eq(idx).addClass('on');
 
     $tabContent.hide();
